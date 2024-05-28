@@ -20,3 +20,4 @@
     │          route.ts             // CopilotKit Backend Runtime
 ```
 
+比较方便的是可以快速实现一个自定义的Action，以及自定义的Chat UI。
