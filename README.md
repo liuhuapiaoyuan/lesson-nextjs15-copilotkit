@@ -20,8 +20,3 @@
     │          route.ts             // CopilotKit Backend Runtime
 ```
 
-
-
-
-
-
