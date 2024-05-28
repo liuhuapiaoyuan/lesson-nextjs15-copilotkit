@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import localFont from "next/font/local";
+import CopilotKitProvider from "./CopilotKitProvider";
 import "./globals.css";
 
 const geistSans = localFont({
@@ -24,7 +25,9 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={`${geistSans.variable} ${geistMono.variable}`}>
+        <CopilotKitProvider>
         {children}
+        </CopilotKitProvider>
       </body>
     </html>
   );
